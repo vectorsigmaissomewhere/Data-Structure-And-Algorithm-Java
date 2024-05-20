@@ -34,3 +34,6 @@ public class BinarySearch {
         }
     }
 }
+
+
+// Element found at index 4
