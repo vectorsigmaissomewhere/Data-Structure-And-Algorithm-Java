@@ -87,3 +87,15 @@ public class AhoCorasickAlgorithm {
     }
  }
 }
+
+/*
+Pattern: a, Positions: [0, 1, 2, 3, 4, 5]
+Pattern: aa, Positions: [0, 1, 2, 3, 4]
+Pattern: aaa, Positions: [0, 1, 2, 3]
+Pattern: aaaa, Positions: [0, 1, 2]
+Pattern: aaaaa, Positions: [0, 1]
+*/
+/*
+Explanation
+The algorithm handles a large number of patterns efficiently, finding all occurrences of each pattern in the text "aaaaaa".
+*/
