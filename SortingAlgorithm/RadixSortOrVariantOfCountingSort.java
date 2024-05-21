@@ -49,6 +49,7 @@ public class RadixSort {
     }
 }
 
+// Sorted array: [2, 24, 45, 66, 75, 90, 170, 802]
 
 /*
 Radix sort is a non-comparative sorting algorithm that sorts numbers by processing individual digits.
