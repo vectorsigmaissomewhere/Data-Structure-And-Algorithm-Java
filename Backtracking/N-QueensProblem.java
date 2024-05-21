@@ -82,6 +82,16 @@ public class NQueens {
 }
 
 /*
+Q . . . . . . .
+. . . . Q . . .
+. . . . . . . Q
+. . . . . Q . .
+. . Q . . . . .
+. . . . . . Q .
+. Q . . . . . .
+. . . Q . . . .
+*/
+/*
 Explanation
 Initialization:
 
