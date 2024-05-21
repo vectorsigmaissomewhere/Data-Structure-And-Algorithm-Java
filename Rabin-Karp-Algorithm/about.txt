@@ -1,0 +1,7 @@
+The Rabin-Karp algorithm is particularly useful for:
+
+Finding multiple pattern matches: It can search for multiple patterns simultaneously by precomputing their hash values.
+Efficient string matching: When the expected number of matches is small, the average case complexity is O(n + m).
+However, the Rabin-Karp algorithm may suffer from hash collisions, where different substrings may have the same hash value.
+To mitigate this, a good hash function and a large prime number q should be chosen. The algorithm's efficiency can also vary depending
+on the implementation and the nature of the input text and patterns.
