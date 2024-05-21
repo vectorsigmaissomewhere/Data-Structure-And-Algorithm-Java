@@ -1,0 +1,39 @@
+Explanation of Solutions
+BFS for Shortest Path
+
+Initialization:
+
+Use a queue to explore the graph level by level.
+Use a predecessor map to track the path.
+Use a visited set to avoid revisiting nodes.
+
+Traversal:
+
+Dequeue a node, and for each unvisited neighbor, enqueue it and mark it as visited.
+If the end node is reached, reconstruct the path using the predecessor map.
+
+Path Reconstruction:
+
+Trace back from the end node to the start node using the predecessor map.
+DFS for Cycle Detection
+
+Initialization:
+
+Use a visited set to keep track of visited nodes.
+
+Traversal:
+
+Recursively visit each node's neighbors.
+If a neighbor is visited and is not the parent of the current node, a cycle is detected.
+
+Cycle Detection:
+
+A cycle is detected if during the DFS traversal, a back edge is found (an edge to a visited node that is not the parent).
+Both problems demonstrate the use of BFS and DFS in solving common graph-related problems effectively.
+
+
+
+
+
+
+
