@@ -1,0 +1,2 @@
+Bit manipulation is a powerful technique often used in programming for optimizing space and performance.
+It involves direct operations on bits, which can be useful for solving various problems efficiently.
