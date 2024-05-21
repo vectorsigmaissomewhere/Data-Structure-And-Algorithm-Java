@@ -15,3 +15,5 @@ public class MissingNumber {
         System.out.println("Missing number is: " + missingNumber(nums)); // Output: 2
     }
 }
+
+// Find Missing Number: Uses XOR to find the missing number in a sequence.
