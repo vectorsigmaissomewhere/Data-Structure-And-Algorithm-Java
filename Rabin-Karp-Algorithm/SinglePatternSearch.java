@@ -61,3 +61,16 @@ public class RabinKarpAlgorithm {
 Pattern found at index 0
 Pattern found at index 10
 */
+
+/*
+Explanation
+Hash Calculation:
+
+Compute the hash value of the pattern and the first window of text.
+Use a rolling hash to compute the hash value of the next window by removing the leading character and adding the trailing character.
+Hash Comparison:
+
+Compare the hash values of the pattern and the current window of text.
+If the hash values match, compare the actual characters to confirm the match.
+
+*/
