@@ -9,3 +9,6 @@ public class PowerOfTwo {
         System.out.println(n + " is power of two: " + isPowerOfTwo(n)); // Output: true
     }
 }
+
+// Check if Power of Two: A number is a power of two if it has exactly one bit set,
+// which means n & (n - 1) should be zero
