@@ -16,3 +16,5 @@ public class ReverseBits {
         // which in binary is 00111001011110000010100101000000
     }
 }
+
+// Reverse Bits: Iteratively shifts bits to reverse their order.
