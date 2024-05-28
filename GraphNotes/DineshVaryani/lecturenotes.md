@@ -45,4 +45,12 @@ public class Graph {
 
 ```
 
+```text
+4vertices4 edges 
+0: 0 1 0 1 
+1: 1 0 1 0 
+2: 0 1 0 1 
+3: 1 0 1 0 
+```
+
 ## more are coming
